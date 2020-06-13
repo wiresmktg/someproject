@@ -2,13 +2,13 @@
 // const cost = document.getElementById("cost").value; // get input value
 // var hours = document.getElementById("hours").value; // get input value3
 
-document.getElementById("button").addEventListener("click", calculator);
-
 function calculator() {
   const rate = document.getElementById("rate").value; // get input value
   const cost = document.getElementById("cost").value; // get input value
   const expenses = document.getElementById("expenses").value; // get input value3
   const hours = document.getElementById("hours").value; // get input value3
+  
+  document.getElementById("button").addEventListener("click", calculator);
 
   const rateCalc = ((cost - expenses) / hours).toFixed(2);
 
