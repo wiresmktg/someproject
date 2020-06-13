@@ -1,7 +1,26 @@
 <!DOCTYPE html>
 <html>
+<head class="title">
+<script src="consultcalc.js"></script>
+
+  <h3>Reverse (esreveR) Hourly Consulting Rate Estimator</h3>
+  <h4>Are YOU Charging Enought?</h4>
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+  <div id="blockview">
+    Total Project Fee:<input id="cost" required="required" type="number" placeholder='Total Consulting Project Fee (e.g. $5000)'></input>
+    <br> <br>
+    Total Project Expenses:<input id="expenses" required="required" type="number" placeholder='Total Expenses that are a part of the Project (e.g. 3rd party vendor fees)'></input>
+    <br> <br>
+    How Many Hours The Project Would Take: <input id="hours" required="required" type="number" placeholder=' Estimate the number of hours the project would take (e.g 120 hours)'></input>
+  </div>
+
+  <br> <br>
+  <button id="button" type="button">Is it worth my time?</button>
+  <br> <br>
+
+  <input id="rate" type="text" placeholder='Your Hourly Rate is...'></input>
+  <p id="demo"></p>
 </body>
 </html>
