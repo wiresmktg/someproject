@@ -1,1 +1,22 @@
 
+h3,
+h4 {
+  text-align: center;
+  color: Blue;
+}
+#cost {
+  width: 50%;
+}
+
+#expenses {
+  width: 50%;
+}
+
+#hours {
+  width: 50%;
+}
+
+#rate {
+  width: 51%;
+  border: 1px dashed;
+}
