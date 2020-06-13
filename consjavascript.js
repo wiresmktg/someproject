@@ -1,7 +1,3 @@
-// const rate = document.getElementById("rate").value; // get input value
-// const cost = document.getElementById("cost").value; // get input value
-// var hours = document.getElementById("hours").value; // get input value3
-
 function calculator() {
   const rate = document.getElementById("rate").value; // get input value
   const cost = document.getElementById("cost").value; // get input value
