@@ -4,18 +4,18 @@ h4 {
   color: Blue;
 }
 #cost {
-  width: 100%;
+  width: 50%;
 }
 
 #expenses {
-  width: 100%;
+  width: 50%;
 }
 
 #hours {
-  width: 100%;
+  width: 50%;
 }
 
 #rate {
-  width: 100%;
+  width: 50%;
   border: 1px dashed;
 }
